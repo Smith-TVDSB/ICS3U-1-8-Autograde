@@ -1,6 +1,7 @@
 #pragma once // prevents multiple definitions
 
 #include <iostream> // print library
+#include <string>
 
 const float PI = 3.14159;
 
