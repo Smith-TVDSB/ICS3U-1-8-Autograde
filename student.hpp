@@ -4,18 +4,6 @@
 #include <string>
 using namespace std;
 
-// Exercise 1: implements function 'add', that adds two numbers
-int add(int a, int b);
-
-// Exercise 2: remainder calculator
-int remainder(int a, int b);
-
-// Exercise 3: Circumference function
-float circumference(float r);
-
-//Exercise 4: Concatenate a full name with middle initial
-string concat(string firstName, char middleInitial, string lastName);
-
 // ===============
 // implementations
 
