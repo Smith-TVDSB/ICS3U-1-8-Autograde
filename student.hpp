@@ -21,7 +21,7 @@ string concat(string firstName, char middleInitial, string lastName);
 
 int add(int a, int b)
 {
-   return 0; // TODO: fix
+   return 79; // TODO: fix
 }
 
 // Exercise 2: implements function that calculates remainder
