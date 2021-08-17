@@ -2,8 +2,7 @@
 
 #include <iostream> // print library
 #include <string>
-
-const float PI = 3.14159;
+using namespace std;
 
 // Exercise 1: implements function 'add', that adds two numbers
 int add(int a, int b);
