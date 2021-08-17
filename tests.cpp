@@ -28,12 +28,12 @@ TEST_CASE("Ex2", "[example]")
     REQUIRE(remainder (203,5) == 3);
     REQUIRE(remainder (17, 3) == 2);
     REQUIRE(remainder (4, 2) == 0);
-    REQUIRE(remainder(4, 2) == 2);
+    REQUIRE(remainder(2, 4) == 2);
 }
 
 TEST_CASE("Ex3", "[example]")
 {
-    REQUIRE(circumference(13.2) == 82.937976);
+    REQUIRE(circumference(13.2) == 82.93797f);
 }
 
 TEST_CASE("Ex4", "concatenation")
