@@ -34,6 +34,7 @@ TEST_CASE("Ex2", "[example]")
 TEST_CASE("Ex3", "[example]")
 {
     REQUIRE(circumference(13.2) == 82.93797f);
+    REQUIRE(circumference(2) == 12.56636f);
 }
 
 TEST_CASE("Ex4", "concatenation")
