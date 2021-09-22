@@ -33,7 +33,7 @@ TEST_CASE("Ex2", "[example]")
 
 TEST_CASE("Ex3", "[example]")
 {
-    REQUIRE(circumference(13.2) == 82.93797f);
+    REQUIRE(circumference(13.2) == Approx(82.93797f).margin(1));
     REQUIRE(circumference(2) == 12.56636f);
 }
 
