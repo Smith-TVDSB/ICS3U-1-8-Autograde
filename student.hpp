@@ -9,13 +9,13 @@ using namespace std;
 
 int add(int a, int b)
 {
-   return 0; // TODO: fix
+	return 0; // TODO: fix
 }
 
 // Exercise 2: implements function that calculates remainder
 int remainder(int a, int b)
 {
-   return 0; // TODO: fix
+	return 0; // TODO: fix
 }
 
 //Exercise 3: implements function that calculates circumference
