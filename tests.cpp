@@ -31,11 +31,19 @@ TEST_CASE("Ex2", "[example]")
     REQUIRE(remainder(2, 4) == 2);
 }
 
+// =====================
+// tests for exercise 3
+// ---------------------
+
 TEST_CASE("Ex3", "[example]")
 {
     REQUIRE(circumference(13.2) == Approx(82.93797f).margin(1));
     REQUIRE(circumference(2) == Approx(12.56636f).margin(1));
 }
+
+// =====================
+// tests for exercise 4
+// ---------------------
 
 TEST_CASE("Ex4", "concatenation")
 {
